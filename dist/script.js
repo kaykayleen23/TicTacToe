@@ -8,10 +8,10 @@ let currentPlayer = 'X';
                 const img = document.createElement('img');
                 
                 if (currentPlayer === 'X') {
-                    img.src = 'tictactoe/img/x.png';
+                    img.src = '..../img/x.png';
                     img.classList.add('w-10'); 
                 } else {
-                    img.src = 'tictactoe/img/o.png';
+                    img.src = '..../img/o.png';
                     img.classList.add('w-10'); 
                 }
     
